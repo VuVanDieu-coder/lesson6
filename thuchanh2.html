@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="Excercise1()">Bài tập 1</button>
+    <button onclick="Excercise2()">Bài tập 2</button>
+</body>
+</html>
+<script>
+    function Excercise1(){
+    let a = +prompt("Nhập số thứ nhất");
+    let b = +prompt("Nhập số thứ hai");
+    let sum = a+b <4? alert("Blow"):alert("Over");
+    }
+
+    function Excercise2(){
+        let login = prompt('Nhập');
+        // if (login == "Employee"){
+        //     alert("Hello");
+        //     if(login == "Director"){
+        //         alert("Greetings");
+        //         if(login==""){
+        //             alert("");
+        //         }
+        //     }
+        // }
+
+        // toán tử 3 ngôi
+            let mess = (login == "Employee")?
+                alert("Hello"):
+                (login == "Director")?
+                alert("Greetings"):
+                alert("");
+    }
+</script>
